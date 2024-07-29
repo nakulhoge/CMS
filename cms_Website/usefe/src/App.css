@@ -1,0 +1,246 @@
+ 
+body{ font-family: 'Roboto', sans-serif !important; }
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+ul.links{ float: right; padding: 10px 0 0 0 ;  margin: 0px;}
+ul.links li{ float: left; list-style: none; padding: 10px 15px;  }
+ul.links li a{ text-decoration: none; color: #000;}
+.pageSection{ padding: 40px 0 0 50px;}
+.pageSection img{ width: 100%;}
+.panel-msg{  margin-top: 50px;}
+.blogs .col-md-12{ padding-left: 0px;}
+.blagsec{ margin-bottom: 40px;}
+.blogdetails{ padding: 30px 0 0 0;}
+.blogdetails h2{ font-size: 18px; margin-bottom: 30px; color: #bccf00;}
+.blogdetails img{ width: 50%;}
+.blagsec_title{ font-size: 25px;  margin-bottom: 20px;} 
+.detailsbtn{ background: none; border: none; text-align: left;}
+.allserchbox input{ width: 170px;     height: 35px;}
+.allserchbox button{ margin-left: 7px;}
+.allserchbox{ margin-bottom: 30px;}
+.blogdetails h3{ margin-bottom: 30px;}
+.backbtn{ margin-top: 30px; display: block;}
+/* .detailsbtn:hover{ border-bottom: 1px solid #ccc;} */
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.header {
+  background-color: white;
+  color: black;
+  display: flex;
+  width: 123;
+  height: 40;
+  text-decoration: none;
+  
+
+}
+.header ul{
+  margin: 0px;
+  padding: 0px;
+}
+.header li{
+  float: left;
+  list-style: none;
+  margin-right: 30px;
+
+}
+.header li  a{
+  text-decoration: none;
+color: #000;
+font-size: 19px;
+  
+}
+
+.panel-msg img{
+  width: 100%;
+}
+.panel-msg1 img{
+  width: 100%;
+}
+.panel-msg2 img{
+  width: 100%;
+}
+.panel-msg3 img{
+  width: 100%;
+}
+.panel-msg4 img{
+  width: 100%;
+}
+.panel-msg5 img{
+  width: 100%;
+}
+.panel-msg6 img{
+  width: 100%;
+}
+.panel-msg7 img{
+  width: 100%;
+}
+.panel-msg8 img{
+  width: 100%;
+}
+
+
+.card {
+
+  padding: 15px;
+min-height: 320px;
+}
+
+.navbar{ background: #ffdd00;} 
+/* .links{list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;}
+  .links li {
+    margin-right: 10px;
+  }
+  .links a {
+    text-decoration: none;
+   
+    font-weight: bold;
+    font-size: 16px;
+  } */
+     */
+     /* .logosec{ display: none;}
+     .logosec:last-child{ display: block;}   */
+     
+.panel-msg{ margin-top: 60px;}
+.panel-msg1 img, .panel-msg img, .panel-msg2 img, .panel-msg3 img,.panel-msg4 img,.panel-msg5 img,.panel-msg6 img,.panel-msg7 img,.panel-msg8 img{ border-radius: 6px;}
+.footer{ background: #000;  text-align: center;    padding: 35px 0;}
+.footer ul{ margin: 0px; padding: 0px;}
+.footer ul li{     list-style: none;
+  display: inline-flex;
+  padding-right: 40px;
+  font-size: 17px;
+}
+.footer ul li a{ color: #fff; text-decoration: none;}
+.footer ul li a:hover{ color: #ffdd00;display: flex;}
+.tesiminoal{ background: #f1f1f1; padding: 20px 0; margin: 50px 0 0px 0;}
+.heading h3 {
+  color: #7f7f7f;
+  text-align: center;
+  margin-top: 70px;
+}
+.formo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+.formo label{ color:#7f7f7f ;}
+.same {
+  margin-left: 30px;
+  color: white;
+}
+.formo textarea {
+  width: 100%;
+  margin-top: 20px;
+}
+.textareahead {
+  width: 45%;
+margin: 25px auto;
+}
+.btn {
+
+  margin-top: 0px;
+
+}
+.form { margin:40px 0 0 0;}
+.form  placeholder{ color: #fff !important;}
+
+
+
+/* Add this CSS to your stylesheets or in a style tag in your React component */
+
+/* .navbar {
+  background-color:  #ffdd00;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.logosec {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.logosec img {
+  height: 60px;
+  width: 91px;
+  margin-left: 10px;
+}
+
+.links:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 100%;
+  width: 1px;
+  background-color: white;
+}
+
+.links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.links li {
+  margin-right: 10px;
+}
+
+.links a {
+  text-decoration: none;
+  
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.links a:hover {
+  border-bottom: 2px solid white;
+} */

@@ -1,0 +1,59 @@
+ 
+
+
+  <Container fluid className="tesiminoal">
+  <Container>
+    <section className="testimonial mt-5 mb-5">
+      <h2 className="text-center pt-3 pb-3">
+        What our customer says about us
+      </h2>
+      <p className="text-center  mb-5">
+        Our team has received hundred of appreciation emails & calls for
+        our efforts. Publishing all testimonials is not possible on the
+        website, but you can read a few of them below.
+      </p>
+      <Row>
+        <Col md={12} className="mb-4">
+          <Card style={{ width: "100%" }}>
+            <Card.Body>
+              <Card.Title>Roseville, MN USA</Card.Title>
+              <Card.Subtitle className="mb-2 ">
+                Oct 2022★★★★★
+              </Card.Subtitle>
+              <Card.Text>
+                We have had a good experience with eDreamz,They are
+                responsive, organized, experienced, hard-working, and
+                knowledgeable etc. The fact that we are in USA has been no
+                problem - we just communicate as to what times we can set
+                up meetings. Their emails are clear and succinct. They
+                work as a team with us. We initially contacted many
+                companies - most in India to save money. Also, I liked
+                their payment plan option and cost
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col md={12}>
+          <Card style={{ width: "100%" }}>
+            <Card.Body>
+              <Card.Title>Roseville, MN USA</Card.Title>
+              <Card.Subtitle className="mb-2 ">
+                Oct 2022★★★★★
+              </Card.Subtitle>
+              <Card.Text>
+                We have had a good experience with eDreamz,They are
+                responsive, organized, experienced, hard-working, and
+                knowledgeable etc. The fact that we are in USA has been no
+                problem - we just communicate as to what times we can set
+                up meetings. Their emails are clear and succinct. They
+                work as a team with us. We initially contacted many
+                companies - most in India to save money. Also, I liked
+                their payment plan option and cost
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
+      </Row>
+    </section>
+  </Container>
+</Container>

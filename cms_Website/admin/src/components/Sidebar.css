@@ -1,0 +1,28 @@
+
+.maindiv {
+    background-color:black; 
+    color: #fff;
+    width: 200px; 
+    height: 100%; 
+    position: fixed; 
+    left: 0; 
+    padding-top: 20px; 
+  }
+  
+  .list {
+    padding: 10px;
+    list-style-type: none; 
+    cursor: pointer;
+    transition: background-color 0.3s; 
+    font-size: large;
+    
+  
+    /* &:hover {
+      background-color:#0d6efd; 
+      color: #fff; 
+    } */
+  }
+  .list a{
+    padding-left: 10px; color: #fff; text-decoration: none;
+  }
+
